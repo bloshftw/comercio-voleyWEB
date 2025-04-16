@@ -56,11 +56,11 @@ Podés ver la versión en vivo del sitio en:
 
 ¡Seguinos en nuestras redes para estar al tanto de todas las novedades del club!
 
-- 📘 Facebook  
-- 📸 Instagram  
-- 🎵 TikTok  
-- ▶️ YouTube  
-- 💬 Canal de WhatsApp  
+- 📘 [Facebook](https://www.facebook.com/comerciovoleyoficial)  
+- 📸 [Instagram](https://www.instagram.com/comerciovoley_oficial/)  
+- 🎵 [TikTok](https://www.tiktok.com/@comerciovoleyvm)  
+- ▶️ [YouTube](https://www.youtube.com/@comerciovoleyvillamercedes1389)  
+- 💬 [Canal de WhatsApp](https://www.whatsapp.com/channel/0029VaMKfdP2975Az02eam3y)  
 
 ---
 
@@ -78,3 +78,4 @@ Villa Mercedes (5730) San Luis - Argentina
 ---
 
 ¡Gracias por visitar y apoyar al Club Social y Deportivo Comercio! 🏐✨
+

@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/output.css" rel="stylesheet">
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/4a3929e8e1.js" crossorigin="anonymous"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body class="bg-black text-white">
+<!--Section "Navegacion"-->
+  <header id="main-header" class="fixed top-0 left-0 w-full z-50 text-white bg-transparent backdrop-blur-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
+  
+      <!-- Logo + Nombre -->
+      <div class="flex items-center space-x-2">
+        <img src="/img/logos/Screenshot_1-removebg-preview (1).png" alt="Logo" class="w-8 h-8" />
+        <span class="font-bold text-lg tracking-widest">Comercio Voley</span>
+      </div>
+  
+      <!-- Botón hamburguesa -->
+      <button id="menu-toggle" class="md:hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+  
+      <!-- Navegación -->
+      <nav id="nav-menu" class="hidden absolute top-full left-0 w-full bg-black/50 backdrop-blur-sm md:relative md:bg-transparent md:flex md:items-center md:space-x-6 md:justify-center md:static md:w-auto transition-all duration-300 ease-in-out">
+        <a href="#inicio" class="block py-2 px-4 hover:text-green-500 transition">Inicio</a>
+  
+        <!-- Categorías con submenu -->
+        
+<div class="relative group">
+  <button id="categorias-toggle" class="py-2 px-4 flex items-center justify-between w-full hover:text-green-500 transition">
+    Categorías
+    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <!-- Submenu -->
+  <div id="categorias-submenu" class="hidden group-hover:flex md:absolute md:left-0 md:top-full flex-col bg-black/50 backdrop-blur-md text-sm mt-1 rounded shadow-lg z-50 md:w-40 mt-4">
+    <a href="#masculino" class=" block px-4 py-2  hover:text-green-500  transition">Masculino</a>
+    <a href="#femenino" class=" block px-4 py-2  hover:text-green-500  transition">Femenino</a>
+    <a href="#femenino" class=" block px-4 py-2  hover:text-green-500  transition">Mini Voley</a>
+  </div>
+</div>
+<!--Submenu-->
+  
+        <a href="#historia" class="block py-2 px-4 hover:text-green-500 transition">Historia</a>
+        <a href="#galeria" class="block py-2 px-4 hover:text-green-500 transition">Galería</a>
+        <a href="#formularios" class="block py-2 px-4 hover:text-green-500 transition">Formularios</a>
+      </nav>
+  
+      <!-- Redes sociales + botón acceso -->
+      <div class="hidden md:flex items-center space-x-3">
+        <a href="#" aria-label="WhatsApp" class="hover:text-green-400 transition">
+          <i class="fab fa-whatsapp text-xl"></i>
+        </a>
+        <a href="#" aria-label="Facebook" class="hover:text-blue-400 transition">
+          <i class="fab fa-facebook text-xl"></i>
+        </a>
+        <a href="#" aria-label="TikTok" class="hover:text-pink-400 transition">
+          <i class="fab fa-tiktok text-xl"></i>
+        </a>
+        <a href="#" aria-label="Instagram" class="hover:text-pink-500 transition">
+          <i class="fab fa-instagram text-xl"></i>
+        </a>
+        <button class="ml-3 px-3 py-1 border border-white rounded hover:bg-white hover:text-black transition">
+          Acceso
+        </button>
+      </div>
+    </div>
+  </header>
+<!--Section "Navegacion"-->
+
+<!--Section "Hero"-->
+<section class="relative w-full h-screen overflow-hidden" id="inicio">
+  <!-- Video de fondo -->
+  <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0 brightness-50 contrast-125 saturate-150">
+    <source src="/src/videos/hero_video.mp4" type="video/mp4" />
+    Tu navegador no soporta la reproducción de videos HTML5.
+  </video>
+
+
+
+  <!-- Texto centrado -->
+  <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4 mt-24">
+    <h1 class="text-3xl md:text-5xl font-bold text-white drop-shadow-lg mb-4 animate-fadeInUp delay-200">
+      ¡Bienvenidos a <span class="text-green-400">Comercio Voley!</span> 
+    </h1>
+    <p class="text-lg md:text-2xl text-white/90 max-w-xl animate-fadeInUp delay-200">
+      Unidos por la pasión, el esfuerzo y los sueños compartidos.
+    </p>
+  </div>
+</section>
+<!--Section "Hero"-->
+
+
+<!--Section "Valores"-->
+<section id="nosotros" class="py-16 px-4 bg-white text-gray-900">
+  <!-- Título y descripción -->
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Nosotros</h2>
+  <p class="text-center text-gray-700 max-w-2xl mx-auto mb-10">
+    Formamos a niños, niñas y jóvenes a través del deporte, promoviendo el desarrollo integral, la responsabilidad y los valores que trascienden el juego. Nos mueve la pasión, el respeto y la convicción de impactar positivamente en nuestra comunidad.
+  </p>
+
+  <!-- Swiper de valores -->
+  <div class="swiper valoresSwiper max-w-6xl mx-auto">
+    <div class="swiper-wrapper">
+
+      <!-- VALOR 1 -->
+      <div class="swiper-slide bg-green-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-check-circle text-4xl text-green-600 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Calidad</h3>
+        <p class="pb-6">Buscamos la excelencia y la mejora en cada entrenamiento y decisión del club.</p>
+      </div>
+
+      <!-- VALOR 2 -->
+      <div class="swiper-slide bg-yellow-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-lightbulb text-4xl text-yellow-500 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Innovación</h3>
+        <p class="pb-5">Nos renovamos constantemente para mejorar nuestra propuesta formativa.</p>
+      </div>
+
+      <!-- VALOR 3 -->
+      <div class="swiper-slide bg-red-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-heart text-4xl text-red-500 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Pasión</h3>
+        <p class="pb-5">Amamos lo que hacemos y lo reflejamos en cada encuentro y desafío.</p>
+      </div>
+
+      <!-- VALOR 4 -->
+      <div class="swiper-slide bg-blue-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-handshake text-4xl text-blue-600 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Integración</h3>
+        <p class="pb-5">Construimos un ambiente inclusivo donde todos tienen su lugar dentro de la institucion</p>
+      </div>
+
+      <!-- VALOR 5 -->
+      <div class="swiper-slide bg-purple-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-balance-scale text-4xl text-purple-600 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Ética</h3>
+        <p class="pb-5">Fomentamos la honestidad, el juego limpio y el respeto en todos los ambitos </p>
+      </div>
+
+      <!-- VALOR 6 -->
+      <div class="swiper-slide bg-pink-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-users text-4xl text-pink-500 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Amistad</h3>
+        <p class="pb-5">El compañerismo y el apoyo es la base de cada vínculo dentro del club.</p>
+      </div>
+
+      <!-- VALOR 7 -->
+      <div class="swiper-slide bg-indigo-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-spa text-4xl text-indigo-500 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Disciplina</h3>
+        <p class="pb-5">El esfuerzo, la dedicacion y la constancia nos forman como deportistas y personas.</p>
+      </div>
+
+      <!-- VALOR 8 -->
+      <div class="swiper-slide bg-orange-100 rounded-xl p-6 shadow-md flex flex-col items-center text-center">
+        <i class="fas fa-futbol text-4xl text-orange-500 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Juego limpio</h3>
+        <p class="pb-5">Jugamos con respeto, responsabilidad, compromiso y espíritu deportivo.</p>
+      </div>
+
+    </div>
+
+    <!-- Paginación -->
+    <div class="swiper-pagination mt-4"></div>
+  </div>
+</section>
+<!--Section "Valores"-->
+
+
+<!--Section "Historia"-->
+<section id="historia" class="py-16 px-4 bg-gray-100 text-gray-800">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-col items-center md:gap-12">
+
+    
+
+    <!-- Texto -->
+    <div class="w-full md:w-4/5 animate-fadeInUp">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 text-green-600">Un poco sobre nosotros</h2>
+      <p class="mb-4">
+        Desde nuestra fundación en 2016, en el Club Social y Deportivo Comercio hemos mantenido firme nuestra misión de formar a niños y jóvenes a través del deporte.
+      </p>
+      <p class="mb-4">
+        Creemos que el movimiento, las técnicas deportivas y la pasión son motores poderosos para generar aprendizajes significativos que van más allá de lo físico.
+      </p>
+      <p class="mb-4">
+        El deporte es un medio privilegiado para inculcar valores esenciales como el juego limpio, la convivencia, la vida saludable, el respeto por el medio ambiente y el desarrollo de habilidades socioemocionales.
+      </p>
+      <p class="mb-4">
+        Nuestra meta es acompañar a los padres en la formación de sus hijos, ayudándolos a ser no solo deportistas, sino también buenas personas, preparadas para contribuir positivamente a la sociedad.
+      </p>
+    </div>
+
+
+  </div>
+</section>
+<!--Section "Historia"-->
+
+<!--Section "CATEGORIAS"-->
+<section class="py-16 px-4 bg-gray-50 text-center text-gray-800">
+  <h2 class="text-3xl md:text-4xl font-bold mb-6 text-green-600">Conocé nuestras categorías</h2>
+  <p class="max-w-xl mx-auto mb-10 text-gray-600">
+    Desde los primeros pasos hasta el alto rendimiento, nuestro club acompaña a cada deportista según su categoría. Ingresá a conocerlas en detalle:
+  </p>
+
+  <!-- Grid de categorías -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+    
+    <!-- Masculino -->
+    <div class="bg-blue-100 rounded-xl shadow-md p-6 flex flex-col items-center hover:scale-105 transition">
+      <i class="fas fa-mars text-4xl text-blue-500 mb-4"></i>
+      <h3 class="text-xl font-semibold mb-2">Vóley Masculino</h3>
+      <p class="mb-4">Sub-14, Sub-16, Sub-18 y Primera División.</p>
+      <a href="masculino.html" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+        Ver sección
+      </a>
+    </div>
+
+    <!-- Femenino -->
+    <div class="bg-pink-100 rounded-xl shadow-md p-6 flex flex-col items-center hover:scale-105 transition">
+      <i class="fas fa-venus text-4xl text-pink-600 mb-4"></i>
+      <h3 class="text-xl font-semibold mb-2">Vóley Femenino</h3>
+      <p class="mb-4">Formación, juveniles y equipo de Primera.</p>
+      <a href="femenino.html" class="px-4 py-2 bg-pink-600 text-white rounded hover:bg-pink-700 transition">
+        Ver sección
+      </a>
+    </div>
+
+    <!-- Mini Vóley -->
+    <div class="bg-yellow-100 rounded-xl shadow-md p-6 flex flex-col items-center hover:scale-105 transition">
+      <i class="fas fa-child text-4xl text-yellow-500 mb-4"></i>
+      <h3 class="text-xl font-semibold mb-2">Mini Vóley</h3>
+      <p class="mb-4">Desde los más pequeños hasta Sub-16.</p>
+      <a href="mini-voley.html" class="px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition">
+        Ver sección
+      </a>
+    </div>
+
+  </div>
+</section>
+<!--Section "CATEGORIAS"-->
+
+
+<!--Section "Donde nos encontramos?"-->
+<section id="ubicacion" class="py-16 px-4 bg-white text-gray-800">
+  <div class="max-w-4xl mx-auto flex flex-col items-center text-center">
+
+    <!-- Título -->
+    <h2 class="text-3xl md:text-4xl font-bold text-green-600 mb-6">¿Dónde nos encontramos?</h2>
+
+    <!-- Google Maps -->
+    <div class="w-full h-72 md:h-96 mb-8">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.7096671070244!2d-65.47142062573734!3d-33.690581173295264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d16a9bf224cf37%3A0xcf974ae871a59fb4!2sLobos%20%26%20Balcarce%2C%20D5730%20Villa%20Mercedes%2C%20San%20Luis!5e0!3m2!1ses!2sar!4v1744781824867!5m2!1ses!2sar"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        class="rounded-lg shadow-md"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <!-- Texto y botón -->
+    <p class="mb-4">
+      Nos encontramos en Eleodoro Lobos y Balcarce, zona centro de la ciudad de Villa Mercedes SL!
+    </p>
+    <p class="font-semibold mb-6">
+      Club Social y Deportivo Comercio, Villa Mercedes, San Luis
+    </p>
+    <a href="#footer" class="inline-block px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+      Ver horarios
+    </a>
+
+  </div>
+</section>
+<!--Section "Donde nos encontramos?"-->
+
+
+<!--Section "Canal de difusion"-->
+<section id="canal-whatsapp" class="py-16 px-4 bg-green-50 text-gray-800">
+  <div class="max-w-4xl mx-auto text-center">
+    
+    <!-- Título -->
+    <h2 class="text-3xl md:text-4xl font-bold text-green-600 mb-4">¡Unite a nuestro canal de WhatsApp!</h2>
+
+    <!-- Descripción -->
+    <p class="mb-4 text-lg text-gray-700">
+      Enterate antes que nadie de partidos, resultados, eventos, fotos, sorteos y todas las novedades del club.
+    </p>
+    <p class="mb-8 text-gray-600">
+      Nuestro canal es 100% informativo. Sin grupos, sin interrupciones. Solo lo más importante del vóley, directo en tu celular 📲
+    </p>
+
+    <!-- Botón -->
+    <a href="https://whatsapp.com/channel/XXXXXXXXXXXXXXX" target="_blank"
+       class="inline-flex items-center gap-3 px-6 py-3 bg-green-600 text-white rounded-lg text-lg hover:bg-green-700 transition shadow-md">
+      <i class="fab fa-whatsapp text-2xl"></i>
+      Unirme al canal
+    </a>
+  </div>
+</section>
+
+<!--Section "Canal de difusion"-->
+
+<!--Footer-->
+<footer id="footer" class="bg-[#1e1e1e] text-gray-100 py-12 px-4">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
+
+    <!-- Logo + nombre -->
+    <div class="flex flex-col items-center text-center">
+      <img src="./img/logos/Screenshot_1-removebg-preview (1).png" alt="Logo Comercio Vóley" class="w-32 h-32 mb-2" />
+      <h3 class="text-lg font-semibold">Club Social y Deportivo Comercio</h3>
+    </div>
+
+    <!-- Información de contacto -->
+    <div class="text-center md:text-left">
+      <h4 class="text-green-400 font-bold text-lg mb-3">Horario de Atención</h4>
+      <p>Lunes, Miércoles y Viernes de 18:00 a 21:00 hs.</p>
+      <p class="mt-4">Eleodoro Lobos y Balcarce</p>
+      <p>Villa Mercedes (5730) San Luis - Argentina</p>
+      <p class="mt-4">Tel: 
+        <a href="https://wa.me/5492657503079" class="text-green-400 hover:underline">
+          +54 9 2657 50-3079
+        </a>
+      </p>
+      <p>Email: 
+        <a href="mailto:comerciovoleyvillamercedes@gmail.com" class="text-green-400 hover:underline">
+          comerciovoleyvillamercedes@gmail.com
+        </a>
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Línea inferior -->
+  <div class="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+    &copy; 2025 Comercio Vóley · Todos los derechos reservados.
+  </div>
+</footer>
+
+
+<!--Footer-->
+
+  <!--JAVASCRIPT-->
+<script src="./js/main.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Stylesheet-->
+  <link href="/css/output.css" rel="stylesheet">
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/4a3929e8e1.js" crossorigin="anonymous"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Categoria Masculina</title>
+</head>
+<body>
+    <!--Section "Navegacion"-->
+    <header id="main-header" class="fixed top-0 left-0 w-full z-50 text-white bg-transparent backdrop-blur-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
+      
+          <!-- Logo + Nombre -->
+          <div class="flex items-center space-x-2">
+            <img src="/img/logos/Screenshot_1-removebg-preview (1).png" alt="Logo" class="w-8 h-8" />
+            <span class="font-bold text-lg tracking-widest">Comercio Voley</span>
+          </div>
+      
+          <!-- Botón hamburguesa -->
+          <button id="menu-toggle" class="md:hidden">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+      
+          <!-- Navegación -->
+          <nav id="nav-menu" class="hidden absolute top-full left-0 w-full bg-black/50 backdrop-blur-sm md:relative md:bg-transparent md:flex md:items-center md:space-x-6 md:justify-center md:static md:w-auto transition-all duration-300 ease-in-out">
+            <a href="/index.html" class="block py-2 px-4 hover:text-green-500 transition">Inicio</a>
+      
+            <!-- Categorías con submenu -->
+            
+    <div class="relative group">
+      <button id="categorias-toggle" class="py-2 px-4 flex items-center justify-between w-full hover:text-green-500 transition">
+        Categorías
+        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+    
+      <!-- Submenu -->
+      <div id="categorias-submenu" class="hidden group-hover:flex md:absolute md:left-0 md:top-full flex-col bg-black/50 backdrop-blur-md text-sm mt-1 rounded shadow-lg z-50 md:w-40 mt-4">
+        <a href="#masculino" class=" block px-4 py-2  hover:text-green-500  transition">Masculino</a>
+        <a href="#femenino" class=" block px-4 py-2  hover:text-green-500  transition">Femenino</a>
+        <a href="#femenino" class=" block px-4 py-2  hover:text-green-500  transition">Mini Voley</a>
+      </div>
+    </div>
+    <!--Submenu-->
+      
+            <a href="#historia" class="block py-2 px-4 hover:text-green-500 transition">Historia</a>
+            <a href="#galeria" class="block py-2 px-4 hover:text-green-500 transition">Galería</a>
+            <a href="#formularios" class="block py-2 px-4 hover:text-green-500 transition">Formularios</a>
+          </nav>
+      
+          <!-- Redes sociales + botón acceso -->
+          <div class="hidden md:flex items-center space-x-3">
+            <a href="#" aria-label="WhatsApp" class="hover:text-green-400 transition">
+              <i class="fab fa-whatsapp text-xl"></i>
+            </a>
+            <a href="#" aria-label="Facebook" class="hover:text-blue-400 transition">
+              <i class="fab fa-facebook text-xl"></i>
+            </a>
+            <a href="#" aria-label="TikTok" class="hover:text-pink-400 transition">
+              <i class="fab fa-tiktok text-xl"></i>
+            </a>
+            <a href="#" aria-label="Instagram" class="hover:text-pink-500 transition">
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+            <button class="ml-3 px-3 py-1 border border-white rounded hover:bg-white hover:text-black transition">
+              Acceso
+            </button>
+          </div>
+        </div>
+      </header>
+    <!--Section "Navegacion"-->
+
+    <!--Section "Hero"-->
+    <section id="hero-masculino" class="relative w-full h-screen">
+        <div class="swiper heroMasculinoSwiper w-full h-full">
+          <div class="swiper-wrapper">
+      
+            <!-- Slide 1 -->
+            <div class="swiper-slide relative">
+              <img src="/img/categorias/Masculino/1ra_A-Masculina.jpg" alt="A1 Masculino A" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                <h1 class="text-white text-3xl md:text-5xl font-bold drop-shadow-lg text-center pt-80">
+                  Categoría A1 Masculino A
+                </h1>
+              </div>
+            </div>
+      
+            <!-- Slide 2 -->
+            <div class="swiper-slide relative">
+              <img src="/img/categorias/Masculino/A2-A-Masculino.jpg" alt="A1 Masculino B" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                <h1 class="text-white text-3xl md:text-5xl font-bold drop-shadow-lg text-center pt-80">
+                  Categoría A1 Masculino B
+                </h1>
+              </div>
+            </div>
+      
+            <!-- Slide 3 -->
+            <div class="swiper-slide relative">
+              <img src="/img/categorias/Masculino/A2-B-Masculino.jpg" alt="A2 Masculino A" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                <h1 class="text-white text-3xl md:text-5xl font-bold drop-shadow-lg text-center pt-80">
+                  Categoría A2 Masculino A
+                </h1>
+              </div>
+            </div>
+      
+          </div>
+      
+          <!-- Paginación -->
+          <div class="swiper-pagination !bottom-6"></div>
+        </div>
+      </section>
+      
+    <!--Section "Hero"-->
+
+<!--Section categorias-->
+
+<section class="py-16 px-4 bg-gray-50 text-gray-800">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-green-600 mb-10">Plantel Masculino</h2>
+  
+      <!-- Tabs de categoría -->
+      <div class="flex justify-center gap-4 mb-12">
+        <button onclick="mostrarCategoria('a1a')" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">A1 Masculino A</button>
+        <button onclick="mostrarCategoria('a1b')" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">A1 Masculino B</button>
+        <button onclick="mostrarCategoria('a2a')" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">A2 Masculino A</button>
+      </div>
+  
+      <!-- Contenedores de categoría -->
+      <div id="categoria-a1a" class="categoria-masculina">
+        <section class="py-16 px-4 bg-gray-50 text-gray-800">
+            <div class="max-w-6xl mx-auto">
+              <h2 class="text-3xl md:text-4xl font-bold text-center text-green-600 mb-10">Plantel A1 Masculino A</h2>
+          
+                <!-- Director Técnico -->
+              <div class="mb-6">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Director Técnico</h3>
+                <div class="relative rounded-xl overflow-hidden shadow-lg group h-80 max-w-sm mx-auto">
+                  <img src="/img/A1-Masculino/manuel.jpg" alt="Ricardo Sosa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                    <div class="bg-black/40 p-4">
+                      <h3 class="text-white text-lg font-bold">Ricardo Manuel Sosa</h3>
+                      <p class="text-green-400 text-sm">Director Técnico</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Armadores -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Armadores</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Luciano.jpg" alt="Luciano Rodriguez" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Rodriguez Luciano Jesús</h3>
+                        <p class="text-green-400 text-sm">Armador · 1.80 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Colo.jpg" alt="Campoy Leandro" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Campoy Leandro Manuel</h3>
+                        <p class="text-green-400 text-sm">Armador · 1.65 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Opuestos -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Opuestos</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Gabriel.jpg" alt="Gimenez Gabriel" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Gimenez Gabriel Rodrigo</h3>
+                        <p class="text-green-400 text-sm">Opuesto · 1.84 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Isaias.png" alt="Isaias Tapia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Isaias Tapia</h3>
+                        <p class="text-green-400 text-sm">Opuesto · 1.85 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Centrales -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Centrales</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Juan.jpg" alt="Carranza Juan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Carranza Juan Manuel</h3>
+                        <p class="text-green-400 text-sm">Central · 1.96 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Sopa.jpg" alt="Muzevich Agustin" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Muzevich Agustín Franco</h3>
+                        <p class="text-green-400 text-sm">Central · 1.87 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Puntas Receptor / Central -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Puntas Receptor / Central</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Leo.jpg" alt="Lucero Leonardo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Lucero Leonardo</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor / Central · 1.74 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Marcos.jpg" alt="Giraudi Marcos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Giraudi Marcos</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor · 1.77 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Maicol.jpg" alt="Lucero Michael" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Lucero Michael David</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor · 1.75 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Líberos -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Líberos</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/MatiasV.jpg" alt="Villegas Matias" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Villegas Matias</h3>
+                        <p class="text-green-400 text-sm">Líbero · 1.81 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+  
+      <div id="categoria-a1b" class="categoria-masculina hidden">
+        <!-- Plantilla de A1 Masculino B -->
+        <section class="py-16 px-4 bg-gray-50 text-gray-800">
+            <div class="max-w-6xl mx-auto">
+              <h2 class="text-3xl md:text-4xl font-bold text-center text-green-600 mb-10">Plantel A1 Masculino B</h2>
+          
+                <!-- Director Técnico -->
+              <div class="mb-6">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Director Técnico</h3>
+                <div class="relative rounded-xl overflow-hidden shadow-lg group h-80 max-w-sm mx-auto">
+                  <img src="/img/A1-Masculino/manuel.jpg" alt="Ricardo Sosa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                    <div class="bg-black/40 p-4">
+                      <h3 class="text-white text-lg font-bold">Ricardo Manuel Sosa</h3>
+                      <p class="text-green-400 text-sm">Director Técnico</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Armadores -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Armadores</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Luciano.jpg" alt="Luciano Rodriguez" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Rodriguez Luciano Jesús</h3>
+                        <p class="text-green-400 text-sm">Armador · 1.80 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Colo.jpg" alt="Campoy Leandro" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Campoy Leandro Manuel</h3>
+                        <p class="text-green-400 text-sm">Armador · 1.65 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Opuestos -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Opuestos</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Gabriel.jpg" alt="Gimenez Gabriel" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Gimenez Gabriel Rodrigo</h3>
+                        <p class="text-green-400 text-sm">Opuesto · 1.84 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Isaias.png" alt="Isaias Tapia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Isaias Tapia</h3>
+                        <p class="text-green-400 text-sm">Opuesto · 1.85 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Centrales -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Centrales</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Juan.jpg" alt="Carranza Juan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Carranza Juan Manuel</h3>
+                        <p class="text-green-400 text-sm">Central · 1.96 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Sopa.jpg" alt="Muzevich Agustin" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Muzevich Agustín Franco</h3>
+                        <p class="text-green-400 text-sm">Central · 1.87 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Puntas Receptor / Central -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Puntas Receptor / Central</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Leo.jpg" alt="Lucero Leonardo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Lucero Leonardo</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor / Central · 1.74 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Marcos.jpg" alt="Giraudi Marcos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Giraudi Marcos</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor · 1.77 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Maicol.jpg" alt="Lucero Michael" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Lucero Michael David</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor · 1.75 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Líberos -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Líberos</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/MatiasV.jpg" alt="Villegas Matias" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Villegas Matias</h3>
+                        <p class="text-green-400 text-sm">Líbero · 1.81 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+  
+      <div id="categoria-a2a" class="categoria-masculina hidden">
+        <!-- Plantilla de A2 Masculino A -->
+        <section class="py-16 px-4 bg-gray-50 text-gray-800">
+            <div class="max-w-6xl mx-auto">
+              <h2 class="text-3xl md:text-4xl font-bold text-center text-green-600 mb-10">Plantel A2 Masculino A</h2>
+          
+                <!-- Director Técnico -->
+              <div class="mb-6">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Director Técnico</h3>
+                <div class="relative rounded-xl overflow-hidden shadow-lg group h-80 max-w-sm mx-auto">
+                  <img src="/img/A1-Masculino/manuel.jpg" alt="Ricardo Sosa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                    <div class="bg-black/40 p-4">
+                      <h3 class="text-white text-lg font-bold">Ricardo Manuel Sosa</h3>
+                      <p class="text-green-400 text-sm">Director Técnico</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Armadores -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Armadores</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Luciano.jpg" alt="Luciano Rodriguez" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Rodriguez Luciano Jesús</h3>
+                        <p class="text-green-400 text-sm">Armador · 1.80 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Colo.jpg" alt="Campoy Leandro" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Campoy Leandro Manuel</h3>
+                        <p class="text-green-400 text-sm">Armador · 1.65 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Opuestos -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Opuestos</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Gabriel.jpg" alt="Gimenez Gabriel" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Gimenez Gabriel Rodrigo</h3>
+                        <p class="text-green-400 text-sm">Opuesto · 1.84 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Isaias.png" alt="Isaias Tapia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Isaias Tapia</h3>
+                        <p class="text-green-400 text-sm">Opuesto · 1.85 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Centrales -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Centrales</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Juan.jpg" alt="Carranza Juan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Carranza Juan Manuel</h3>
+                        <p class="text-green-400 text-sm">Central · 1.96 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Sopa.jpg" alt="Muzevich Agustin" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Muzevich Agustín Franco</h3>
+                        <p class="text-green-400 text-sm">Central · 1.87 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Puntas Receptor / Central -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Puntas Receptor / Central</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Leo.jpg" alt="Lucero Leonardo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Lucero Leonardo</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor / Central · 1.74 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Marcos.jpg" alt="Giraudi Marcos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Giraudi Marcos</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor · 1.77 m</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/Maicol.jpg" alt="Lucero Michael" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Lucero Michael David</h3>
+                        <p class="text-green-400 text-sm">Punta Receptor · 1.75 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Líberos -->
+              <div class="mb-12">
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">Líberos</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <div class="relative rounded-xl overflow-hidden shadow-lg group h-80">
+                    <img src="/img/A1-Masculino/MatiasV.jpg" alt="Villegas Matias" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <div class="absolute inset-0 bg-black/20 flex flex-col justify-end group-hover:bg-black/50">
+                      <div class="bg-black/40 p-4">
+                        <h3 class="text-white text-lg font-bold">Villegas Matias</h3>
+                        <p class="text-green-400 text-sm">Líbero · 1.81 m</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+  </section>
+  
+
+<!--Section cateogiras-->
+
+    <!--Elementos de javascript y swiper-->
+        <!--JAVASCRIPT-->
+        <script src="/js/main.js"></script>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+  </script>
+    <!--Elementos de javascript y swiper-->
+</body>
+</html>

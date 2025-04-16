@@ -5,6 +5,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const categoriasBtn = document.getElementById("categorias-toggle");
   const submenu = document.getElementById("categorias-submenu");
 
+
+   // mostrar categorias script
+   window.mostrarCategoria = function(id) {
+    const categorias = document.querySelectorAll('.categoria-masculina');
+    categorias.forEach(c => c.classList.add('hidden'));
+    document.getElementById(`categoria-${id}`)?.classList.remove('hidden');
+  };
+
+  //Modal categorias script
+  function openModal(id) {
+    document.getElementById(id)?.classList.remove("hidden");
+  }
+  
+  function closeModal(id) {
+    document.getElementById(id)?.classList.add("hidden");
+  }
+
   // Menú hamburguesa
   toggle?.addEventListener("click", () => {
     const isScrolled = window.scrollY > 10;

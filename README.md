@@ -3,6 +3,8 @@
 
 Bienvenidos al repositorio del sitio web oficial del Club Social y Deportivo Comercio, una institución dedicada a la formación de niños y jóvenes a través del deporte, especialmente el vóley.
 
+Este proyecto fue diseñado por 2 programadores, con la idea en mente de aportar algo a una causa real, aplicando conocimientos de programación y diseño, con la posibilidad de implementar futuras funcionalidades que ayuden a esta institucion a crecer.
+
 ---
 
 ## 🌟 Sobre el club
@@ -31,7 +33,9 @@ Este proyecto está construido con:
 - 🧩 HTML5  
 - 🎨 CSS3  
 - ⚙️ JavaScript  
-- 💨 Tailwind CSS  
+- 💨 Tailwind CSS
+-     Swiper
+-     Node.js 
 
 ---
 
@@ -48,7 +52,7 @@ Este proyecto está construido con:
 
 Podés ver la versión en vivo del sitio en:
 
-🔗 *Ver página*
+🔗 https://comercio-voley-web.vercel.app
 
 ---
 
